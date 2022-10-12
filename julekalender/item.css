@@ -1,0 +1,63 @@
+    .item{
+        text-align: center;
+        position: relative;
+        margin: 20px;
+        cursor: pointer;
+        perspective: 200vw; /* så lågen for noget perspektiv når den åbner */
+    }
+    
+    .item img{
+        display: block;
+    }
+
+    .item-number{
+        backface-visibility: hidden;
+    }
+    
+    .item-container > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .item-overlay{
+        position: absolute;/* laver et ekstra lag på lågen, absolute betyder at den ligger sig ovenpå hele billedet. */
+        top: 0;
+        left: 0;
+
+        background:#609d9f;
+    
+
+        width: 100%;
+        height: 100%;
+
+        color: white;
+        font-size: 70px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border: 2px solid rgba(0,0,0,0.5);
+        box-shadow: 1px 4px 4px rgba(0,0,0,0.5);
+
+        transform: rotateY(0deg);/* får lågen til at åbne sig, men til at starte med skal den være lukket, derfor er den nul */
+        transform-origin: left;/* definere hvorfra lågen åbner sig */
+        transform-style: preserve-3d;
+
+        transition: transform 1s;/* bruges når vil skifte fra en css til en anden, men det skal tage tid */
+    }
+
+    .open .item-overlay{
+        transform: rotateY(-95deg);
+    }
+
+    @media screen and (min-width: 900px) {
+        .item-overlay{
+            font-size: 10rem;
+        }
+
+
+    }

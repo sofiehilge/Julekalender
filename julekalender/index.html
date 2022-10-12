@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="assets/manifest.json">
+    <title>Julekalender</title>
+
+    <script>
+        if ("serviceWorker in navigator"){
+            window.addEventListener("load", function(){
+                navigator.serviceWorker.register("service-worker.js")
+            })
+        }
+    </script>
+</head>
+<body>
+   <header><h1 class="title">Peter og Kalles Julekalender</h1></header> 
+    <div class="item-container"> <!-- indeholder alle julekalender lågerne -->
+        
+        <figure class="item l16-r1" data-date="16">
+            <a href="https://www.youtube.com/watch?v=TzJCHCr8oSg" target="_blank">
+               <img src="image/IMG-005b1e8c684138042a8796fe285ddf90-V.png" alt="">    
+            </a>     
+            <div class="item-overlay">
+                <p class="item-number">
+                    16
+                </p>
+            </div>
+        </figure> 
+        <figure class="item l2-r1" data-date="2">
+            <a href="https://www.youtube.com/watch?v=efGqe1j3RNk" target="_blank">
+               <img src="image/IMG-20220814-WA0000.png" alt=""> 
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    2
+                </p>
+            </div>
+        </figure> 
+        <figure class="item l13-r1" data-date="13">
+            <a href="https://www.youtube.com/watch?v=Bl1FOKpFY2Q" target="_blank">
+             <img src="image/IMG-20220922-WA0001.png" alt="">   
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    13
+                </p>
+            </div>
+        </figure>
+        <figure class="item l3-r2" data-date="3">
+            <a href="https://www.youtube.com/watch?v=3Bs4LOtIuxg" target="_blank">
+              <img src="image/IMG-262eb8dbf2b1d849d4ff8380093a117f-V.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    3
+                </p>
+            </div>
+        </figure> 
+        <figure class="item l11-r2" data-date="11">
+            <a href="https://www.youtube.com/watch?v=9OhUJyF1bYo" target="_blank">
+               <img src="image/IMG-486b2ca9d2802b1d709f79ec19d9a9c8-V.png" alt=""> 
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    11
+                </p>
+            </div>
+        </figure>
+        
+        <figure class="item l4-r2" data-date="4">
+            <a href="https://www.youtube.com/watch?v=UhDsRp0EfbA" target="_blank">
+              <img src="image/IMG-489c396e6d435f66107d55133d11af27-V.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    4
+                </p>
+            </div>
+        </figure>
+        <figure class="item l19-r3" data-date="19">
+            <a href="https://www.youtube.com/watch?v=zDlrAvSGtAI" target="_blank">
+               <img src="image/IMG-4f45f40266add834733ce660462c2553-V.png" alt=""> 
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    19
+                </p>
+            </div>
+        </figure> 
+        <figure class="item l24-r3" data-date="24">
+            <a href="https://www.youtube.com/watch?v=PdX3DIspJxg" target="_blank">
+               <img src="image/IMG-5346e9f21d32c37678346910709e1e54-V.png" alt=""> 
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    24
+                </p>
+            </div>
+        </figure>
+        <figure class="item l6-r3" data-date="6">
+            <a href="https://www.youtube.com/watch?v=MjKUYDKZpYY" target="_blank">
+              <img src="image/IMG-632a389f0763d6ccf032226050e24d48-V.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    6
+                </p>
+            </div>
+        </figure> 
+        <figure class="item l1-r4" data-date="1"><!-- data er valgfri attributer, kaldes hvad vi vil  -->
+            <a href="https://www.youtube.com/watch?v=-p1P4fdhaF8" target="_blank">
+              <img src="image/IMG-6d940a2288e46edadeafd982e43539c7-V.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    1
+                </p>
+            </div>
+        </figure>
+        <figure class="item l8-r4" data-date="8">
+            <a href="https://www.youtube.com/watch?v=fEUwBMThY1w" target="_blank">
+             <img src="image/IMG-8866dfac4e2a861e2472c59d5968b450-V.png" alt="">   
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    8
+                </p>
+            </div>
+        </figure> 
+        <figure class="item l21-r5" data-date="21">
+            <a href="https://www.youtube.com/watch?v=e9dZQelULDk" target="_blank">
+              <img src="image/IMG-8936fe49ead4e614bc8a2239559e215f-V.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    21
+                </p>
+            </div>
+        </figure>
+        <figure class="item l10-r5" data-date="10">
+            <a href="https://www.youtube.com/watch?v=j6PbonHsqW0" target="_blank">
+              <img src="image/IMG-8b1a1bbc6ae80e19454277849d9999a3-V.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    10
+                </p>
+            </div>
+        </figure> 
+        <figure class="item l12-r5" data-date="12">
+            <a href="https://www.youtube.com/watch?v=8AGgbIQyqR8" target="_blank">
+               <img src="image/IMG-a75d3d2a1f725c1b7bb9e52b5b282cbd-V.png" alt=""> 
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    12
+                </p>
+            </div>
+        </figure>
+        <figure class="item l14-r6" data-date="14">
+            <a href="https://www.youtube.com/watch?v=2h4OsWrbQAA" target="_blank">
+              <img src="image/IMG-af7fbf8c4e5532c0eabcbcfaaa0c2c54-V.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    14
+                </p>
+            </div>
+        </figure>
+        <figure class="item l9-r6" data-date="9">
+            <a href="https://www.youtube.com/watch?v=zON0wDD7VJY" target="_blank">
+                <img src="image/IMG-c7e9d61f31225e2ecd5f2dc55a55ddfe-V.png" alt="">
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    9
+                </p>
+            </div>
+        </figure> 
+        <figure class="item l17-r6" data-date="17">
+            <a href="https://www.youtube.com/watch?v=YXWc3aFrxCo" target="_blank">
+               <img src="image/IMG-cc6724498228dc24e4e7b6244b4311d4-V.png" alt=""> 
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    17
+                </p>
+            </div>
+        </figure>
+        <figure class="item l15-r7" data-date="15">
+            <a href="https://www.youtube.com/watch?v=Z2T15LmztDk" target="_blank">
+             <img src="image/IMG-d291a9a64a860ec4e6a74755d67862b5-V.png" alt="">   
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    15
+                </p>
+            </div>
+        </figure>
+        
+        <figure class="item l20-r7" data-date="20">
+            <a href="https://www.youtube.com/watch?v=qEaoaRpRRzo" target="_blank">
+              <img src="image/IMG-d4d15d2b100ee7451e2d6770f7400120-V.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    20
+                </p>
+            </div>
+        </figure>
+        <figure class="item l22-r7" data-date="22">
+            <a href="https://www.youtube.com/watch?v=5VtARFNISH4" target="_blank">
+              <img src="image/IMG-d8e93b3faba9d7c3b37bf2f804a788b8-V.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    22
+                </p>
+            </div>
+        </figure>
+        <figure class="item l7-r8" data-date="7">
+            <a href="https://www.youtube.com/watch?v=kNw8V_Fkw28" target="_blank">
+              <img src="image/IMG-e1116a5bd374f8ad535ecf0d872d70e0-V.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    7
+                </p>
+            </div>
+        </figure>
+        <figure class="item l18-r8" data-date="18">
+            <a href="https://www.youtube.com/watch?v=2P5ZYT5xPoQ" target="_blank">
+               <img src="image/IMG_20220817_210459.png" alt=""> 
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    18
+                </p>
+            </div>
+        </figure>
+        <figure class="item l23-r8" data-date="23">
+            <a href="https://www.youtube.com/watch?v=a-PxubN_MQY" target="_blank">
+              <img src="image/IMG_20220819_170642.png" alt="">  
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    23
+                </p>
+            </div>
+        </figure>
+        <figure class="item l5-r8" data-date="5">
+            <a href="https://www.youtube.com/watch?v=3MnvyBi1KDU" target="_blank">
+             <img src="image/IMG_20220929_091419.png" alt="">   
+            </a>
+            <div class="item-overlay">
+                <p class="item-number">
+                    5
+                </p>
+            </div>
+        </figure>  
+</div>
+    <footer><h4>Glædelig Jul allesammen</h4></footer>
+    <div class="alert">
+        Hov du må ikke åbne denne låge endnu!
+    </div>
+    
+    <script src="jul.js" defer></script>
+</body>
+</html>

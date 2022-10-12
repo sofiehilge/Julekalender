@@ -1,0 +1,22 @@
+.alert{
+    padding: 60px;
+    background-color: red;
+    color: white;
+    font-size: 70px;
+    display: none;
+    position: fixed;
+    align-items: center;
+    
+    animation-name: alert-box;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes alert-box{
+    0% {background-color: lightpink; left: 0px; top: 0px;}
+    25% {background-color: lightcoral; left: 600px; top: 0px}
+    50% {background-color: red; left: 600px; top: 600px;}
+    75% {background-color: brown; left: 0px; top: 600px;}
+    100% {background-color: darkred; left: 0px; top: 0px;}
+}

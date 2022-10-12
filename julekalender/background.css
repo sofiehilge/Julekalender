@@ -1,0 +1,13 @@
+@keyframes snow{
+    from{background-position-y: 0, 0;}
+    to {background-position-y: 300px, 0;}
+    /* snefnugne skal begvæge sig, derfor er det på y-aksen. TO værdier fordi der er to billeder */
+}
+
+body{
+    background-image: url(image/snowflake.png), url(image/amy-shamblen-RtTlLkjCJzc-unsplash.jpg); /* sidste billede lægges oven på det første */
+    background-size: auto, cover; /* så det kun er en gang billedet vises */
+    background-position: fixed, fixed; /* to gange fordi vi har to billeder */
+
+    animation: snow 15s linear infinite; /* navnet på funktionen, linær så rytmen er konstant, og funktionen skal bevæge sig uendeligt. */
+}
