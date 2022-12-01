@@ -4,7 +4,7 @@ let currentDay = date.getDate() //idag er den lige med = 10
 let currentMonth = date.getMonth()+1 //idag er den lige med = 10
 const alertBox = document.querySelector(".alert")
 
-const activationMonth = 10 //denne variable skal ændres til 12 når vi er færdige med at udvikle
+const activationMonth = 12 //denne variable skal ændres til 12 når vi er færdige med at udvikle
 
 //Vi indsamler alle kalenderlåger i en liste
 const items = document.querySelectorAll(".item")
